@@ -1,0 +1,857 @@
+Unity Editor version:    2021.2.7f1 (6bd9e232123f)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/facundofarall/Desktop/ITBA/9C_Diseno/POCs/0.finger_tracking+BLE+Unity/Unity/POC-00v1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52639
+Successfully changed project path to: /Users/facundofarall/Desktop/ITBA/9C_Diseno/POCs/0.finger_tracking+BLE+Unity/Unity/POC-00v1
+/Users/facundofarall/Desktop/ITBA/9C_Diseno/POCs/0.finger_tracking+BLE+Unity/Unity/POC-00v1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 102.97 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 3.28 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/facundofarall/Desktop/ITBA/9C_Diseno/POCs/0.finger_tracking+BLE+Unity/Unity/POC-00v1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56653
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000772 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 86.22 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (413ms)
+		BeginReloadAssembly (35ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003187 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/facundofarall/Desktop/ITBA/9C_Diseno/POCs/0.finger_tracking+BLE+Unity/Unity/POC-00v1/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/facundofarall/Desktop/ITBA/9C_Diseno/POCs/0.finger_tracking+BLE+Unity/Unity/POC-00v1/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 4044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (502.9 KB). Loaded Objects now: 4446.
+Memory consumption went from 270.0 MB to 269.5 MB.
+Total: 2.522792 ms (FindLiveObjects: 0.121333 ms CreateObjectMapping: 0.046500 ms MarkObjects: 2.158625 ms  DeleteObjects: 0.195583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51137.519143 seconds.
+  path: Assets/Plugins/Android/GraVR/gravrblelibrary-debug.aar
+  artifactKey: Guid(60defad728607496eabce80d8240e12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/GraVR/gravrblelibrary-debug.aar using Guid(60defad728607496eabce80d8240e12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f10f1285765549cd0598df4f003e14') in 0.772797 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.47 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (486.9 KB). Loaded Objects now: 4446.
+Memory consumption went from 189.7 MB to 189.2 MB.
+Total: 2.653333 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.047792 ms MarkObjects: 2.287625 ms  DeleteObjects: 0.186000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288.051683 seconds.
+  path: Assets/Plugins/Android/GraVR/Editor/GraVRDependencies.xml
+  artifactKey: Guid(f33a1aa355a4341358f40b49ea5454e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/GraVR/Editor/GraVRDependencies.xml using Guid(f33a1aa355a4341358f40b49ea5454e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d25adf27e7ae3d34633a369dc13336f') in 0.523552 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.49 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (479.0 KB). Loaded Objects now: 4446.
+Memory consumption went from 194.1 MB to 193.7 MB.
+Total: 7.195333 ms (FindLiveObjects: 0.179709 ms CreateObjectMapping: 0.048083 ms MarkObjects: 6.752375 ms  DeleteObjects: 0.214209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 352.918531 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(94f34bdb6a5084902ac41f96ceb42d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(94f34bdb6a5084902ac41f96ceb42d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62294d75c96c031d08869632bcae1c6f') in 0.036418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.788937 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(94f34bdb6a5084902ac41f96ceb42d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(94f34bdb6a5084902ac41f96ceb42d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a2e3f1e42901f0fdff67f87c2a569b') in 0.007140 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (479.2 KB). Loaded Objects now: 4446.
+Memory consumption went from 198.3 MB to 197.8 MB.
+Total: 6.992209 ms (FindLiveObjects: 0.125708 ms CreateObjectMapping: 0.048333 ms MarkObjects: 6.601417 ms  DeleteObjects: 0.216125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.51 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (487.1 KB). Loaded Objects now: 4446.
+Memory consumption went from 198.3 MB to 197.8 MB.
+Total: 2.596333 ms (FindLiveObjects: 0.144500 ms CreateObjectMapping: 0.047791 ms MarkObjects: 2.210417 ms  DeleteObjects: 0.193542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.511043 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties.DISABLED
+  artifactKey: Guid(94f34bdb6a5084902ac41f96ceb42d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties.DISABLED using Guid(94f34bdb6a5084902ac41f96ceb42d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bdb6b825edcff023a50f56b46b991e') in 0.038800 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.19 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (479.2 KB). Loaded Objects now: 4446.
+Memory consumption went from 202.5 MB to 202.0 MB.
+Total: 4.062666 ms (FindLiveObjects: 0.137791 ms CreateObjectMapping: 0.067792 ms MarkObjects: 3.632666 ms  DeleteObjects: 0.224084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100.630817 seconds.
+  path: Assets/Plugins/Android/androidx.annotation.annotation-experimental-1.1.0.aar
+  artifactKey: Guid(fdf4bc7abd6a947aaa117851c426828b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.annotation.annotation-experimental-1.1.0.aar using Guid(fdf4bc7abd6a947aaa117851c426828b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb484ea9abd393294a41e12b03c83404') in 0.003428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.988284 seconds.
+  path: Assets/Plugins/Android/androidx.appcompat.appcompat-1.4.0.aar
+  artifactKey: Guid(ddb57c39ca2eb4f94888c1f83e407dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.appcompat.appcompat-1.4.0.aar using Guid(ddb57c39ca2eb4f94888c1f83e407dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621a2278b3ab10129fbb5fccf1d2977f') in 0.001726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.336300 seconds.
+  path: Assets/Plugins/Android/androidx.appcompat.appcompat-resources-1.4.0.aar
+  artifactKey: Guid(69ab6c777f42f4b6e84cab9d0fcf5cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.appcompat.appcompat-resources-1.4.0.aar using Guid(69ab6c777f42f4b6e84cab9d0fcf5cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b3ad33c684e699c3c6fc4b5d2f0a67') in 0.002092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.743980 seconds.
+  path: Assets/Plugins/Android/androidx.annotation.annotation-1.3.0.jar
+  artifactKey: Guid(96316072699e045a2a2207e544c5cecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.annotation.annotation-1.3.0.jar using Guid(96316072699e045a2a2207e544c5cecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a840f5132ae9968fa3c002efec547ad2') in 0.096598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.902245 seconds.
+  path: Assets/Plugins/Android/androidx.concurrent.concurrent-futures-1.0.0.jar
+  artifactKey: Guid(93dec7fca617a4138a09fbcb1fd59201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.concurrent.concurrent-futures-1.0.0.jar using Guid(93dec7fca617a4138a09fbcb1fd59201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178fe984f7ccf1da2fcdd341c822c7e2') in 0.002362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.452356 seconds.
+  path: Assets/Plugins/Android/androidx.core.core-1.7.0.aar
+  artifactKey: Guid(b7097e6d311c449f0a994c4df9b1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.core.core-1.7.0.aar using Guid(b7097e6d311c449f0a994c4df9b1c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21f6c57403650b9f51cd10e498bb22c') in 0.002310 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (479.4 KB). Loaded Objects now: 4446.
+Memory consumption went from 206.6 MB to 206.1 MB.
+Total: 2.442125 ms (FindLiveObjects: 0.120750 ms CreateObjectMapping: 0.047166 ms MarkObjects: 2.071875 ms  DeleteObjects: 0.201792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.27 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (479.5 KB). Loaded Objects now: 4446.
+Memory consumption went from 206.6 MB to 206.1 MB.
+Total: 2.808750 ms (FindLiveObjects: 0.154250 ms CreateObjectMapping: 0.047958 ms MarkObjects: 2.387125 ms  DeleteObjects: 0.218708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.15 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (479.5 KB). Loaded Objects now: 4446.
+Memory consumption went from 206.6 MB to 206.1 MB.
+Total: 7.626583 ms (FindLiveObjects: 0.141209 ms CreateObjectMapping: 0.048333 ms MarkObjects: 7.197500 ms  DeleteObjects: 0.238708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.605454 seconds.
+  path: Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar
+  artifactKey: Guid(6637af58a42a34b31b2be3b19edff650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.cursoradapter.cursoradapter-1.0.0.aar using Guid(6637af58a42a34b31b2be3b19edff650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badc5b76d72dea472a00d470b0f890c9') in 0.004894 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.19 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (487.3 KB). Loaded Objects now: 4446.
+Memory consumption went from 206.6 MB to 206.1 MB.
+Total: 2.677334 ms (FindLiveObjects: 0.135459 ms CreateObjectMapping: 0.050792 ms MarkObjects: 2.282875 ms  DeleteObjects: 0.208042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 271.763577 seconds.
+  path: Assets/Plugins/Android/androidx.core.core-ktx-1.7.0.aar
+  artifactKey: Guid(7e40894c23bb94c618fde5bdc336a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.core.core-ktx-1.7.0.aar using Guid(7e40894c23bb94c618fde5bdc336a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7017109bc904e13383317c174c434962') in 0.004919 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (479.5 KB). Loaded Objects now: 4446.
+Memory consumption went from 207.0 MB to 206.6 MB.
+Total: 7.395250 ms (FindLiveObjects: 0.134917 ms CreateObjectMapping: 0.048209 ms MarkObjects: 6.967708 ms  DeleteObjects: 0.243709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.76 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (480.1 KB). Loaded Objects now: 4446.
+Memory consumption went from 207.0 MB to 206.5 MB.
+Total: 2.653542 ms (FindLiveObjects: 0.144750 ms CreateObjectMapping: 0.050667 ms MarkObjects: 2.214833 ms  DeleteObjects: 0.243083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.72 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (479.5 KB). Loaded Objects now: 4446.
+Memory consumption went from 207.0 MB to 206.5 MB.
+Total: 3.567583 ms (FindLiveObjects: 0.148083 ms CreateObjectMapping: 0.047042 ms MarkObjects: 3.149750 ms  DeleteObjects: 0.222291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 294.690132 seconds.
+  path: Assets/Plugins/Android/androidx.core.core-ktx-1.6.0.aar
+  artifactKey: Guid(9f7c9284f8ea64176b61484167084679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.core.core-ktx-1.6.0.aar using Guid(9f7c9284f8ea64176b61484167084679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6529342d1dae9dd77a8729cb8902d7ac') in 0.004474 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 5.99 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (487.6 KB). Loaded Objects now: 4446.
+Memory consumption went from 207.0 MB to 206.6 MB.
+Total: 7.045417 ms (FindLiveObjects: 0.150375 ms CreateObjectMapping: 0.051708 ms MarkObjects: 6.606125 ms  DeleteObjects: 0.236458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.28 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (480.1 KB). Loaded Objects now: 4446.
+Memory consumption went from 207.0 MB to 206.6 MB.
+Total: 4.156208 ms (FindLiveObjects: 0.169916 ms CreateObjectMapping: 0.048667 ms MarkObjects: 3.708125 ms  DeleteObjects: 0.228958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 318.666714 seconds.
+  path: Assets/Plugins/Android/androidx.lifecycle.lifecycle-common-2.4.0.jar
+  artifactKey: Guid(e830466f3c4154f4b941685c027b9470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.lifecycle.lifecycle-common-2.4.0.jar using Guid(e830466f3c4154f4b941685c027b9470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4bd95cab0bad6ed59a3b7b734c1438') in 0.004561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.176315 seconds.
+  path: Assets/Plugins/Android/androidx.lifecycle.lifecycle-process-2.4.0.aar
+  artifactKey: Guid(0ac67311e959140258cefa8bbfa05cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.lifecycle.lifecycle-process-2.4.0.aar using Guid(0ac67311e959140258cefa8bbfa05cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b471fb5553e59f9732402a9f5e62101') in 0.002310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419510 seconds.
+  path: Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.4.0.aar
+  artifactKey: Guid(1a681d20a876c4f839749ba5ea5423e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.lifecycle.lifecycle-runtime-2.4.0.aar using Guid(1a681d20a876c4f839749ba5ea5423e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f75a5cbb8fd198d981ae5ecf334483b') in 0.001525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.279735 seconds.
+  path: Assets/Plugins/Android/androidx.resourceinspection.resourceinspection-annotation-1.0.0.jar
+  artifactKey: Guid(509a15592851847338fc8cbc0b54d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.resourceinspection.resourceinspection-annotation-1.0.0.jar using Guid(509a15592851847338fc8cbc0b54d629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6bb79549fb6e4da83319fb2ae7f6ae') in 0.001879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.677109 seconds.
+  path: Assets/Plugins/Android/androidx.startup.startup-runtime-1.0.0.aar
+  artifactKey: Guid(d996b2e730c85450693df0bfe9b3149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.startup.startup-runtime-1.0.0.aar using Guid(d996b2e730c85450693df0bfe9b3149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a16f73f9f3aa8574cb4e8bcbaf424cb') in 0.001774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267115 seconds.
+  path: Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-1.1.0.aar
+  artifactKey: Guid(00fe8e0305c814312bca7e80f84faddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-1.1.0.aar using Guid(00fe8e0305c814312bca7e80f84faddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0597df533fd36d73cf7e64071a7c7b06') in 0.001726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197485 seconds.
+  path: Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-animated-1.1.0.aar
+  artifactKey: Guid(2cc7ea321ebb24e55a70caa7050cabbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.vectordrawable.vectordrawable-animated-1.1.0.aar using Guid(2cc7ea321ebb24e55a70caa7050cabbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff13ddc5ef7d889ec0d1fc6eac64eb6f') in 0.002145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.277169 seconds.
+  path: Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.1.aar
+  artifactKey: Guid(11adc629eaf20429eb27ab89a89c0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.versionedparcelable.versionedparcelable-1.1.1.aar using Guid(11adc629eaf20429eb27ab89a89c0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b99a79b384e5ba1973e328e207f493') in 0.002349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.147489 seconds.
+  path: Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar
+  artifactKey: Guid(aace10a2b52ca401a8820a25d47c6741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.viewpager.viewpager-1.0.0.aar using Guid(aace10a2b52ca401a8820a25d47c6741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f649163649f4d618e4b4fbba2e2e53d') in 0.001510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189042 seconds.
+  path: Assets/Plugins/Android/com.google.guava.listenablefuture-1.0.jar
+  artifactKey: Guid(38e4c81f7413449129dd933d989f5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/com.google.guava.listenablefuture-1.0.jar using Guid(38e4c81f7413449129dd933d989f5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5853e833565e0c68bdb35aaf323ff9a5') in 0.002052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.816203 seconds.
+  path: Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar
+  artifactKey: Guid(02dbbb15d8d914a6aba73e299e48ff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.interpolator.interpolator-1.0.0.aar using Guid(02dbbb15d8d914a6aba73e299e48ff7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a96330e365d35dd5c9e3bc138baa7c') in 0.001848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.812324 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-1.4.1.jar
+  artifactKey: Guid(cf40d508d7c2d432b841c4d6dbe56007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-1.4.1.jar using Guid(cf40d508d7c2d432b841c4d6dbe56007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1d9da93fc6839d61a32a1593a10438') in 0.001625 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.63 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (477.3 KB). Loaded Objects now: 4446.
+Memory consumption went from 205.9 MB to 205.4 MB.
+Total: 2.818125 ms (FindLiveObjects: 0.153292 ms CreateObjectMapping: 0.059375 ms MarkObjects: 2.399667 ms  DeleteObjects: 0.205500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 362.666948 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.5.2.jar
+  artifactKey: Guid(67057b0cd3cba45b987957e8ebfa1550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-core-jvm-1.5.2.jar using Guid(67057b0cd3cba45b987957e8ebfa1550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cc6a3ffe03e4705f2084beff9c818d') in 0.005068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.393506 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-android-1.5.2.jar
+  artifactKey: Guid(44c3f24f7ef22430ba1b40235bedb5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.kotlinx.kotlinx-coroutines-android-1.5.2.jar using Guid(44c3f24f7ef22430ba1b40235bedb5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14b2da50a34bd177faa684996009c41') in 0.001757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.095080 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-jdk8-1.5.30.jar
+  artifactKey: Guid(1195f47b03a8a45c3a381beae8a162da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-jdk8-1.5.30.jar using Guid(1195f47b03a8a45c3a381beae8a162da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bac1827a1c31876bc58a3efcaae6a4') in 0.002203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.249108 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.5.30.jar
+  artifactKey: Guid(cdbd20f5258964017957aaee2fdf5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-jdk7-1.5.30.jar using Guid(cdbd20f5258964017957aaee2fdf5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bee984cf9f875766200bd9d0ee9132') in 0.002124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.693944 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-common-1.5.31.jar
+  artifactKey: Guid(a3263bd7712fc407d9afd9fb059a3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-common-1.5.31.jar using Guid(a3263bd7712fc407d9afd9fb059a3b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61976f02b6054525e408a0640545bc45') in 0.002249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.484904 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-1.5.31.jar
+  artifactKey: Guid(76c0e6861339745548679510b7bb34a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.kotlin.kotlin-stdlib-1.5.31.jar using Guid(76c0e6861339745548679510b7bb34a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1080b9afc8ec6b50c3806d54c2bded8') in 0.001658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.613576 seconds.
+  path: Assets/Plugins/Android/org.jetbrains.annotations-13.0.jar
+  artifactKey: Guid(36a61ed2b8ee44dde890cca2517468b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/org.jetbrains.annotations-13.0.jar using Guid(36a61ed2b8ee44dde890cca2517468b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9547a4b0549af7bad6d4cfcaf5660122') in 0.002223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.937254 seconds.
+  path: Assets/Plugins/Android/androidx.appcompat.appcompat-1.4.0.aar
+  artifactKey: Guid(4070a5027149e473d9953a0b57746f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.appcompat.appcompat-1.4.0.aar using Guid(4070a5027149e473d9953a0b57746f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24d9cfc50656d9758ac2a125454a635') in 0.001957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.313510 seconds.
+  path: Assets/Plugins/Android/androidx.core.core-ktx-1.7.0.aar
+  artifactKey: Guid(68ed2f3a5515441e381581e2b6f1e2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.core.core-ktx-1.7.0.aar using Guid(68ed2f3a5515441e381581e2b6f1e2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787721920f1b44f81d8e99107872e608') in 0.001362 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.31 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (477.6 KB). Loaded Objects now: 4446.
+Memory consumption went from 206.0 MB to 205.6 MB.
+Total: 7.465042 ms (FindLiveObjects: 0.133500 ms CreateObjectMapping: 0.047958 ms MarkObjects: 7.052625 ms  DeleteObjects: 0.230291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 613.796928 seconds.
+  path: Assets/Plugins/Android/launcherTemplate.gradle
+  artifactKey: Guid(885c67a8510d2489fbd20af6507e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/launcherTemplate.gradle using Guid(885c67a8510d2489fbd20af6507e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86b3f8b9e91360eef1b4f9430c8182c') in 0.047343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.861148 seconds.
+  path: Assets/Plugins/Android/launcherTemplate.gradle
+  artifactKey: Guid(885c67a8510d2489fbd20af6507e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/launcherTemplate.gradle using Guid(885c67a8510d2489fbd20af6507e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2150e57c80cd49d965582569335f06a') in 0.000958 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.52 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (479.4 KB). Loaded Objects now: 4446.
+Memory consumption went from 211.2 MB to 210.8 MB.
+Total: 7.008500 ms (FindLiveObjects: 0.136458 ms CreateObjectMapping: 0.048834 ms MarkObjects: 6.565458 ms  DeleteObjects: 0.256959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.805041 seconds.
+  path: Assets/Plugins/Android/androidx.core.core-ktx-1.7.0.aar
+  artifactKey: Guid(c8648519d64a04cd9b8cb3c13e3f3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/androidx.core.core-ktx-1.7.0.aar using Guid(c8648519d64a04cd9b8cb3c13e3f3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f080e697a814aa061633cb41ed8bbf0') in 0.004901 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.68 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (480.3 KB). Loaded Objects now: 4446.
+Memory consumption went from 211.2 MB to 210.8 MB.
+Total: 2.672625 ms (FindLiveObjects: 0.125583 ms CreateObjectMapping: 0.048541 ms MarkObjects: 2.281625 ms  DeleteObjects: 0.216417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.69 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (479.8 KB). Loaded Objects now: 4446.
+Memory consumption went from 211.2 MB to 210.8 MB.
+Total: 3.756750 ms (FindLiveObjects: 0.121375 ms CreateObjectMapping: 0.048500 ms MarkObjects: 3.355625 ms  DeleteObjects: 0.230959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.23 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 95 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (479.7 KB). Loaded Objects now: 4446.
+Memory consumption went from 211.0 MB to 210.6 MB.
+Total: 2.596458 ms (FindLiveObjects: 0.121958 ms CreateObjectMapping: 0.047084 ms MarkObjects: 2.216500 ms  DeleteObjects: 0.210625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.87 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (477.6 KB). Loaded Objects now: 4446.
+Memory consumption went from 209.9 MB to 209.5 MB.
+Total: 2.476583 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.049291 ms MarkObjects: 2.093625 ms  DeleteObjects: 0.205875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.37 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (477.7 KB). Loaded Objects now: 4446.
+Memory consumption went from 209.9 MB to 209.5 MB.
+Total: 7.704125 ms (FindLiveObjects: 0.192583 ms CreateObjectMapping: 0.047792 ms MarkObjects: 7.225042 ms  DeleteObjects: 0.238375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.52 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 95 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (480.0 KB). Loaded Objects now: 4446.
+Memory consumption went from 211.1 MB to 210.6 MB.
+Total: 7.197583 ms (FindLiveObjects: 0.190375 ms CreateObjectMapping: 0.051875 ms MarkObjects: 6.711208 ms  DeleteObjects: 0.243666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
